@@ -34,3 +34,13 @@ let newNumbers: number[] = [2, 4, 6, 8, 20];
 const newArray: number[] = newNumbers.map(
   (number: number): number => number * number
 );
+
+// filter
+const filteredArray: number[] = newNumbers.filter(
+  (number: number): boolean => number % 2 == 0
+);
+
+// find
+const singleElement: number | undefined = newNumbers.find(
+  (number: number): boolean => number % 5 == 0
+);

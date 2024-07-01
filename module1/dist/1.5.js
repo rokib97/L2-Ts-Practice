@@ -1,4 +1,5 @@
 "use strict";
+// object in ts
 const user = {
   company: "Programming Hero",
   CEO: "Jhankar Mahbub",
