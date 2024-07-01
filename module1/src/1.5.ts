@@ -1,3 +1,4 @@
+// object in ts
 const user: {
   company: "Programming Hero"; //literal type
   readonly CEO: string; //readonly property can't change
