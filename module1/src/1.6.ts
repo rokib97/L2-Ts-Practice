@@ -46,5 +46,6 @@ const singleElement: number | undefined = newNumbers.find(
 );
 
 /**
- * !Understanding TypeScript is like understanding your ex in a better way
+ * !Understanding TypeScript is like understanding your ex in a better way!
+ * TODO : don't beleive that bitch!
  */
