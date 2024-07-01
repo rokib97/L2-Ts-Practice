@@ -44,3 +44,7 @@ const filteredArray: number[] = newNumbers.filter(
 const singleElement: number | undefined = newNumbers.find(
   (number: number): boolean => number % 5 == 0
 );
+
+/**
+ * !Understanding TypeScript is like understanding your ex in a better way
+ */
