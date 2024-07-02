@@ -18,3 +18,7 @@ let permission: boolean[] = [true, false, false, true];
 // tuple => array => type of order
 let cordinats: [number, number] = [20, 40];
 let ageName: [number, string, boolean] = [23, "rokib", true];
+
+/**
+ * ! Basic types in typescript is so simple and eligent to write.
+ */

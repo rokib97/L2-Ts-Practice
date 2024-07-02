@@ -38,4 +38,8 @@
   //   type alias for function
   type AddTwoNum = (num1: number, num2: number) => number;
   const addTwoNum: AddTwoNum = (num1, num2) => num1 + num2;
+
+  /**
+   * ! Type Alias will boost my productivity for sure.
+   */
 }

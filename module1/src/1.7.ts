@@ -26,4 +26,8 @@
   };
 
   greetMessage("saki", "rokib", "sabrina");
+
+  /**
+   * ! Spread and Rest operator is so easy and fun to use.
+   */
 }

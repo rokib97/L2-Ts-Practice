@@ -20,4 +20,8 @@
   //   array destructuring
   const friends = ["tonmoy", "rakib", "milon", "tota", "sabrina", "moni"];
   const [, , bestFriend, ...rest] = friends;
+
+  /**
+   * !Destructuring is enjoyable.
+   */
 }

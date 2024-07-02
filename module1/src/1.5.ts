@@ -13,3 +13,7 @@ const user: {
   lastName: "Rokib",
   isMarried: false,
 };
+
+/**
+ * ! Loved how i can control my object property in typescript
+ */
