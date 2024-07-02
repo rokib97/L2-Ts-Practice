@@ -16,3 +16,6 @@ let permission = [true, false, false, true];
 // tuple => array => type of order
 let cordinats = [20, 40];
 let ageName = [23, "rokib", true];
+/**
+ * ! Basic types in typescript is so simple and eligent to write.
+ */

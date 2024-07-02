@@ -11,4 +11,7 @@
     designation1: "Bowler",
     designation2: "Batsman",
   };
+  /**
+   * !Type Alias is fun and enjoyable. Specially Union & Intersection!
+   */
 }

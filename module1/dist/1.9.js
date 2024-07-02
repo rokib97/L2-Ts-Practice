@@ -23,4 +23,7 @@
   const userName = "Rokib";
   const isAdmin = true;
   const addTwoNum = (num1, num2) => num1 + num2;
+  /**
+   * ! Type Alias will boost my productivity for sure.
+   */
 }
