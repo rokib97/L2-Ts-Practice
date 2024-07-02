@@ -40,4 +40,8 @@
   const permanentAddress =
     userOne?.address?.permanentAddress ?? "No Permanent Address Found";
   console.log({ permanentAddress });
+
+  /**
+   * ! Ternary is same as js but nullish is super fun to use with optional chaining...
+   */
 }

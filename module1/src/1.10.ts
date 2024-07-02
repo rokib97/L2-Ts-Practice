@@ -36,6 +36,6 @@
   };
 
   /**
-   * !Type Alias is fun. Specially Union & Intersection!
+   * !Type Alias is fun and enjoyable. Specially Union & Intersection!
    */
 }
