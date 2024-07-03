@@ -1,5 +1,5 @@
 {
-  // generic type
+  // generic types
 
   type GenericArray<T> = Array<T>;
 
@@ -13,7 +13,16 @@
   const bollArray: GenericArray<boolean> = [true, false, true];
 
   //   array of object
-  const users: GenericArray<{ name: string; age: number }> = [
+  type User = {
+    name: string;
+    age: number;
+  };
+  // or we can use interface
+  //   interface User {
+  //     name: string;
+  //     age: number;
+  //   }
+  const users: GenericArray<User> = [
     { name: "rokib", age: 32 },
     { name: "saki", age: 23 },
   ];
@@ -21,7 +30,12 @@
   //  generic tuple
   type GenericTuple<x, y> = [x, y];
   const nameAndAge: GenericTuple<string, number> = ["rokib", 24];
-  const userDetail: GenericTuple<number, { name: string; age: number }> = [
+
+  type User1 = {
+    name: string;
+    age: number;
+  };
+  const userDetail: GenericTuple<number, User1> = [
     1234,
     { name: "rokib", age: 23 },
   ];
